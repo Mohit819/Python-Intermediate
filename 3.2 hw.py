@@ -1,3 +1,4 @@
+
 ##price = 2.95
 ##money=input("what is the price?")
 ##while money[-1].isdigit() == False:
@@ -17,9 +18,12 @@
 ##print(upper)
 
 password = input("enter new password")
-if password.upper()==False:
-    print("use all uppercase letters")
-    password = input("enter new password")
-if password.isalnum()==False:
-    print("use stronger symbols like @ or $")
-    password = input("enter new password")
+for i in password:
+    #check if i is upper, if it is, change it to lower
+    #or check if you can change i to a special characters
+##if password.upper()==False:
+##    print("use all uppercase letters")
+##    password = input("enter new password")
+##if password.isalnum()==False:
+##    print("use stronger symbols like @ or $")
+##    password = input("enter new password")
