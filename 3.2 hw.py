@@ -19,11 +19,17 @@
 
 password = input("enter new password")
 for i in password:
-    #check if i is upper, if it is, change it to lower
-    #or check if you can change i to a special characters
-##if password.upper()==False:
-##    print("use all uppercase letters")
-##    password = input("enter new password")
-##if password.isalnum()==False:
-##    print("use stronger symbols like @ or $")
-##    password = input("enter new password")
+    if i == "a":
+        password = password.replace("a","@")
+    if i == "s":
+        password = password.replace("s","$")
+    if i == "l":
+        password = password.replace("l","|")
+    if i.isupper()==False:
+        password = password.replace(i,i.upper())
+    elif i.islower()==False:
+        password = password.replace(i,i.lower())
+print("use",password,"instead")
+
+
+
