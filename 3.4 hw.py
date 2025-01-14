@@ -6,10 +6,11 @@
 ##    i = input("are you done adding")
 ##    if i == "done":
 ##        break
-##a = lst.sort()
+##lst.sort()
+##print(lst)
 
 ##lst = ["a","b","c","d"]
-##while len(lst)>1:
+##while len(lst)>0:
 ##    i = lst.pop(0)
 ##    print(i)
 
@@ -19,14 +20,9 @@
 ####city_state = ["Portland, Oregon", "San Francisco, California",\
 ####"Houston, Texas", "Boston, Massachusetts"]
 ##city_state = []
-##city_state.append(cities[0:1:])
-##city_state.append(states[0:1:])
-##city_state.append(cities[1:2:])
-##city_state.append(states[1:2:])
-##city_state.append(cities[2:3:])
-##city_state.append(states[2:3:])
-##city_state.append(cities[3:4:])
-##city_state.append(states[3:4:])
+##for i in range(len(cities)):
+##    city_state.append(cities[i])
+##    city_state.append(states[i])
 ##print(city_state)
 
 days = ["monday", "wednesday", "thursday"]
@@ -37,3 +33,4 @@ days.insert(1,"tuesday")
 days.append("friday")
 days.extend(["saturday","sunday"])
 print(days)
+
