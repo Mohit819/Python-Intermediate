@@ -19,14 +19,21 @@
 ##    return lst
 ##print(range2(start=3, end=20, skip=3))
 
-def slice(lst,start,skip,end=-1):
-    sli =[]
-    if end == -1:
-        end = len(lst)
-    for i in range(start,end,skip):
-        sli.append(lst[i])
-    return sli
+##def slice(lst,start,skip,end=-1):
+##    sli =[]
+##    if end == -1:
+##        end = len(lst)
+##    for i in range(start,end,skip):
+##        sli.append(lst[i])
+##    return sli
+##
+##lst2=["hi","hello","hey"]
+##w= slice(lst2,1,1,2)
+##print(w)
 
-lst2=["hi","hello","hey"]
-w= slice(lst2,1,1,2)
-print(w)
+def hi():
+    print("bob")
+hi()
+var = 1     #<-
+
+## length 2 lst sli
